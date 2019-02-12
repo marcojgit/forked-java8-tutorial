@@ -54,6 +54,8 @@ public class Atomic1 {
         ConcurrentUtils.stop(executor);
 
         System.out.format("Accumulate: %d\n", atomicInt.get());
+        
+        // Das ist mein zweiter Kommentar
     }
 
     private static void testIncrement() {
